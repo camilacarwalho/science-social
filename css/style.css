@@ -1,0 +1,18 @@
+body{
+    background-color: #ff6f69;
+}
+.icon{
+    width: 30px;
+}
+.fields{
+    background-color: 	#ffeead;
+}
+.avatar{
+    width: 200px;
+    border-radius: 100px;
+}
+.principal{
+    background-color: #96ceb4;
+    width: 50%;
+    height: 50%;
+}
