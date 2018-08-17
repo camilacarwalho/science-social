@@ -1,18 +1,69 @@
 body{
-    background-color: #ff6f69;
+    background-color: 	#F4C7A3;
+    background-image: url("img/bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 .icon{
     width: 30px;
 }
 .fields{
-    background-color: 	#ffeead;
+    background-color: 	#fbf8ec;
+    position: fixed;
+    left: 5%;
+    bottom: 20%;
+    z-index:-1;
+    
 }
 .avatar{
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
+    position: absolute;
+    top: 80px;
+    right: 52%;
+    z-index:1;  
+     
+
+}
+.name{
+    color: #f7d5ba;
+}
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #35515e, #7395A5,#35515e);
+}
+.profile{
+    padding-top: 3%;
+    padding-left: 20%;
+    font-size: 12px; 
 }
 .principal{
-    background-color: #96ceb4;
+    background-color: 	#35515e;
+    color: white;
     width: 50%;
-    height: 50%;
+    height: 70%;
+    border-radius: 4px;
+    overflow: visible;
+    position: relative;
+    float: right;
+    margin-right: 10%;
+    top: 20%;
+    
+}
+.activities{
+    color: #fbf8ec;
+}
+.listening{
+    -webkit-transform: rotate(-90deg); /* Safari and Chrome */
+    -moz-transform: rotate(-90deg);   /* Firefox */
+    -ms-transform: rotate(-90deg);   /* IE 9 */
+    -o-transform: rotate(-90deg);   /* Opera */
+    transform: rotate(-90deg);
+    background-color: #eda367;
+    position: fixed;
+    float: right;
+    right: 0;
+    width: 200px;
 }
